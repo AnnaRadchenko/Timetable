@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test task for EngagePoint</title>
+	<link rel="stylesheet" href="styles.css" />
+	<script src="less.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="scripts.js"></script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<nav>
+			<ul>
+				<li><a href="" id="nav_list_active">Все заказы</a></li>
+				<li><a href="">Текущие</a></li>
+				<li><a href="">Завершенные</a></li>
+				<li><a href="">Отмененные</a></li>
+			</ul>
+		</nav>
+
+		<main>
+
+			<header>
+				<div id="header_data">Дата заказа</div>
+				<div>№ заказа</div>
+				<div>Текущий статус</div>
+			</header>
+
+			<section class="main_info">
+				<div>9 июля 2012</div>
+				<div>№0570</div>
+				<div id="section_warning">Отменен</div>
+			</section>
+
+			<section class="main_info toggle">
+				<div>3 июля 2012</div>
+				<div>№ МЕ0017681</div>
+				<div id="section_sent">Отправлен курьерской службой</div>	
+				<div class="tip">Click on me please!</div>	
+			</section>
+
+			<div id="section_hidden">
+
+				<section class="section_hidden address">
+					<div class="address part1">
+						<div>Имя получятеля:</div>
+						<div>Электронная почта:</div>
+						<div>Доставка:</div>
+						<div>Оплата:</div>
+					</div>
+
+					<div class="address part2">
+						<div>г. Киев, ул. Саксаганского, 65, кв. 11</div>
+						<div>+38 050 123-45-56</div>
+						<div>Курьером лично в руки. Адрес: г. Киев, ул. Саксаганского, 65, кв. 11</div>
+						<div>Наличными при получении</div>
+					</div>
+				</section>
+
+				<section class="section_hidden amount">	
+					<div>Товары в заказе</div>
+					<div class="goods">Количество</div>
+					<div>Цена</div>
+				</section>
+
+				<div class="dotted_gradient_line">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+
+				<section class="section_hidden pic1">
+					<div>
+						<span class="book">Девушка с татуировкой дракона</span> Стиг Ларссон<br>
+						<span class="price">138 грн.</span>
+					</div>
+
+					<div class="count">1</div>
+
+					<div class="price">138 грн.</div>
+				</section>
+
+				<section class="section_hidden pic2">
+					<div>
+						<span class="book">Девушка, которая взрывала воздушные замки</span><br>
+						<span>Стиг Ларссон</span><br>
+						<span id="line_though">170 грн.</span><br>
+						<span class="price">138 грн.</span>
+					</div>
+
+					<div class="count">1</div>
+
+					<div class="price">138 грн.</div>
+				</section>
+
+				<div class="dotted_gradient_line">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+
+				<section class="section_hidden delivery">	
+					<div>Доставка:<span class="price"> 20 грн.</span></div>	
+				</section>
+
+				<div class="dotted_gradient_line">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+
+				<section class="section_hidden bonus">	
+					<div><span>+38 бонусов</span> за этот заказ</div>
+					<div>Сумма заказа:<span class="price"> 182 грн.</span>
+					</div>	
+				</section>
+
+			</div>
+
+			<section class="main_info">
+				<div>17 мая 2012</div>
+				<div>№0570</div>
+				<div class="section_success">Доставлен</div>
+			</section>
+
+			<section class="main_info last">
+				<div>29 февраля 2012</div>
+				<div>№ МЕ0017681</div>
+				<div class="section_success">Доставлен</div>
+			</section>
+
+		</main>
+
+	</div>
+
+</body>
+</html>
